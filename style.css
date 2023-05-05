@@ -1,0 +1,122 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 300;
+}
+
+.nav-bar,
+.nav-item {
+  display: inline-block;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 40px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.rocket {
+  display: block;
+  height: 800px;
+  width: 100%;
+  filter: brightness(30%);
+
+}
+
+.container {
+  position: relative;
+  color: white;
+}
+
+.display-title {
+  position: absolute;
+  top: 175px;
+  left: 175px;
+  font-size: 60px;
+  text-align: left;
+}
+
+.content-line {
+  position: absolute;
+  top: 375px;
+  left: 175px;
+  font-size: 30px;
+}
+
+.contact {
+  position: absolute;
+  top: 500px;
+  left: 180px;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  padding: 15px 35px 15px 35px;
+  background-color: aliceblue;
+  transition: 0.3s;
+}
+
+.contact:hover {
+  background-color: aqua;
+}
+
+.center-title {
+  text-align: center;
+  font-size: 22px;
+  margin: 120px auto;
+}
+
+.center-cards {
+  display: flex;
+  justify-content: center;
+}
+
+.cards img {
+  width: 550px;
+  height: 350px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  height: 600px;
+  margin: 0px 20px;
+  border: 1px solid lightblue;
+}
+
+.card-title {
+  font-size: 22px;
+  margin-bottom: 0px;
+}
+
+.card-content a {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+.card-content {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 10px;
+  margin: 0px;
+}
+
+.card-content p {
+  font-weight: 300;
+  font-stretch: expanded;
+  font-size: 21px;
+  padding: 0px 50px;
+}
